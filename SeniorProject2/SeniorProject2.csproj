@@ -56,7 +56,6 @@
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable\Icon.png" />
-    <AndroidResource Include="Resources\drawable\Clouds NoBackground.png" />
     <AndroidResource Include="Resources\layout\LoginScreen.axml" />
     <AndroidResource Include="Resources\drawable\BannerLogo.png" />
     <AndroidResource Include="Resources\drawable\BannerLogo1.png" />
@@ -67,6 +66,7 @@
     <AndroidResource Include="Resources\layout\Games.axml" />
     <AndroidResource Include="Resources\layout\Menu.axml" />
     <AndroidResource Include="Resources\layout\Video.axml" />
+    <AndroidResource Include="Resources\drawable\CloudsNoBackground.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

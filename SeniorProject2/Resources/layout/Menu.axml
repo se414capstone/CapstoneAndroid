@@ -7,27 +7,30 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/imageView2"
-        android:src="@drawable/Clouds NoBackground" />
+        android:src="@drawable/CloudsNoBackground" />
     <Button
         android:text="Play Fun Games!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button1"
         android:layout_marginTop="17.7dp"
-        android:layout_below="@+id/textView4" />
+        android:layout_below="@+id/textView4"
+        android:textColor="#ff0004ff" />
     <Button
         android:text="Listen to Audio!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button3"
-        android:layout_below="@+id/button2" />
+        android:layout_below="@+id/button2"
+        android:textColor="#ff0004ff" />
     <Button
         android:text="Watch Videos!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button2"
         android:layout_marginBottom="0.0dp"
-        android:layout_below="@+id/button1" />
+        android:layout_below="@+id/button1"
+        android:textColor="#ff0004ff" />
     <TextView
         android:text="Me:"
         android:textAppearance="?android:attr/textAppearanceLarge"
